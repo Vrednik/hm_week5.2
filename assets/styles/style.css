@@ -1,9 +1,12 @@
 header{
    height: 10vh;
+   line-height: 10vh;
    background-color: gainsboro;
 }
+
 .title{
     text-align: center;
+    align-items: center;
     font-size: 30px;
 }
 .main{
@@ -20,23 +23,38 @@ body{
 }
 section{
     flex: 1;
-    background-color: moccasin;
+    background-color: rgb(250, 242, 227);
+    padding-top: 30px;
 }
 .section{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+  align-content: flex-end;
+   height: 90%;
+   padding: 0 20px;
 }
-.sectuion_main{
-    width: 300px;
-    height: 50px;
-    background-color:rgb(218, 188, 115);
+
+.section_block{
+    background-color: bisque;
+    height: 80px;
 }
-.sectuion_main_big{
-    flex: 1;
-    justify-content: stretch;
+
+.section_1{
+    flex: 0 1 45%;
 }
+.section_2{
+    flex: 0 1 45%;
+
+}
+.section_3{
+    flex: 0 1 100%;
+    margin-top: 20px;
+}
+
 nav{
+    flex: 0 0 400px;
+    padding-top: 30px;
     background-color: palegreen;
 }
 
