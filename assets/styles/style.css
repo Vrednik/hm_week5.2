@@ -16,7 +16,7 @@ header{
     justify-content: stretch;
 }
 
-body{
+.flex-container{
     display: flex;
     flex-flow: column;
     min-height: 100vh;
@@ -30,21 +30,25 @@ section{
    display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
-  align-content: flex-end;
+   align-content: flex-end;
    height: 90%;
    padding: 0 20px;
 }
 
 .section_block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: bisque;
     height: 80px;
+    text-align: center;
 }
 
 .section_1{
-    flex: 0 1 45%;
+    flex: 0 1 49%;
 }
 .section_2{
-    flex: 0 1 45%;
+    flex: 0 1 49%;
 
 }
 .section_3{
